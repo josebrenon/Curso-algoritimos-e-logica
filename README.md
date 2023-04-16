@@ -1,1 +1,1 @@
-# Curso-algoritimos-e-logica
+# Curso de algoritimos e logica de programação
