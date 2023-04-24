@@ -1,5 +1,7 @@
+#include <conio.h>
 #include <stdio.h>
-int main()
+main()
 {
     printf("Estamos aprendendo c");
+    getch();
 }  
