@@ -2,6 +2,6 @@
 #include <stdio.h>
 main()
 {
-    printf("Estamos aprendendo c");
+    printf("Estamos aprendendo C");
     getch();     
 }
