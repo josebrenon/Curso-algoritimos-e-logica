@@ -16,10 +16,10 @@ class automovel
 {
     public static void main(String [] args)
     {
-        float porcen_reven, imposto, vfinal;
+        float custo_fabr, porcen_reven, imposto, vfinal;
 
         //custo_fabr = 40000;
-        float custo_fabr = Float.parseFloat(JOptionPane.showInputDialog("Digite o custo de fabrica: R$"));
+        custo_fabr = Float.parseFloat(JOptionPane.showInputDialog("Digite o custo de fabrica: R$"));
         porcen_reven = (25 * custo_fabr) / 100;
         imposto = (45 * custo_fabr) / 100;
         vfinal = custo_fabr + porcen_reven + imposto;
