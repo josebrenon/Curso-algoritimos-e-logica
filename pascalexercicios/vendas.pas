@@ -5,8 +5,7 @@
   funcionário. Mostre as informações que você achar necessário.
 
   Esse programa lê o valor da venda, adciona 15% ao salário total do vendedor
-  e mostra quanto ele ganha, quantos % em R$ ele vai ganhar, o valor da venda
-  e o valor final.
+  e mostra quanto ele ganha, quantos % em R$ ele vai ganhar e o valor final.
 
   By: José Brenon - 20/06/2023
 }
