@@ -1,3 +1,10 @@
+{
+    Problema: Calcular a média de 2 notas e mostrar essa média.
+    
+    Esse programa calcula 2 médias e mostra o seu valot final.
+    
+    By: José Brenon - 16/06/2023
+}
 program media;
 var
    nota1, nota2, calc_media: real; //definição variáveis
