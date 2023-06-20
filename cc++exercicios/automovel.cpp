@@ -15,7 +15,6 @@
 main()
 {
       float custo_fabr, perc_reven, impostos, pfinal;
-      
       //custo_fabr = 40000;
       printf("\nDigite o valor de fabrica do automovel: ");
       scanf("%f",&custo_fabr);
