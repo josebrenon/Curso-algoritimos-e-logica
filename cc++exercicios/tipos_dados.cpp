@@ -1,3 +1,13 @@
+/*
+    Problema: Ler o nome de uma pessoa, a sua idade e seu salário, e mostrar 
+    essas informações.
+    
+    Esse programa lê o nome, a idade e o salário de uma pessoa e mostra essa 
+    informação.
+    
+    By: José Brenon - 19/06/2022
+*/
+
 #include <conio.h>
 #include <stdio.h>
 main()
@@ -6,7 +16,7 @@ main()
       int idade;
       char nome[30]; //= "Brenon";
       
-//      salario = 2000;
+  //    salario = 2000;
   //    idade = 21;
       printf("Digite seu nome: ");
       scanf("%s", nome);

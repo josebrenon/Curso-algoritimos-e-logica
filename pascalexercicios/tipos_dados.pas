@@ -1,3 +1,12 @@
+{
+    Problema: Ler o nome de uma pessoa, a sua idade e seu salário, e mostrar 
+    essas informações.
+    
+    Esse programa lê o nome, a idade e o salário de uma pessoa e mostra essa 
+    informação.
+    
+    By: José Brenon - 19/06/2022
+}
 program tipos_dados;
 var
    salario: real;

@@ -1,3 +1,11 @@
+/*
+    Problema: Ler duas notas e calcular a média entre elas.
+
+    Esse programa Lê duas notas e calcula a media entre elas.
+
+    By: José Brenon - 16/06/2023
+ */
+
 import javax.swing.JOptionPane;
 
 class media_ler

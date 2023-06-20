@@ -1,3 +1,11 @@
+/*
+    Problema: Ler dois números e efetuar as 4 operações matemáticas e mostrar 
+    os resultados
+    
+    Esse programa lê dois números e efetua as quatro operações básicas da matemática
+    
+    By: José Brenon - 19/06/2023
+*/
 #include <conio.h>
 #include <stdio.h>
 main()
