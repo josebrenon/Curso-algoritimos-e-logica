@@ -11,11 +11,11 @@
 program avaliacao;
 var prova1, prova2, prova3, media: real;
 begin
-     write('Digite a nota da primeira prova que tem peso 2: ');
+     write('Digite a nota da prova 1 que tem peso 2: ');
      readln(prova1);
-     write('Digite a nota da segunda prova que tem peso. 3: ');
+     write('Digite a nota da prova 2 que tem peso 3: ');
      readln(prova2);
-     write('Digite a nota da terceira prova que tem peso 5: ');
+     write('Digite a nota da prova 3 que tem peso 5: ');
      readln(prova3);
 
      prova1 := (prova1 * 2) / 10;
