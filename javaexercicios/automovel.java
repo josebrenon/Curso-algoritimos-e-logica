@@ -10,11 +10,23 @@
      By: José Brenon - 20/06/2023
  */
 
+import javax.swing.*;
 
 class automovel
 {
     public static void main(String [] args)
     {
+        float porcen_reven, imposto, vfinal;
+
+        //custo_fabr = 40000;
+        float custo_fabr = Float.parseFloat(JOptionPane.showInputDialog("Digite o custo de fabrica: R$"));
+        porcen_reven = (25 * custo_fabr) / 100;
+        imposto = (45 * custo_fabr) / 100;
+        vfinal = custo_fabr + porcen_reven + imposto;
+        JOptionPane.showMessageDialog(null, "Com o custo de fabrica = R$"+ custo_fabr +
+                "\nA porcentagem do revendedor = R$"+ porcen_reven
+        + "\nO imposto = R$"+ imposto + "\nO valor final = R$"+ vfinal);
+        System.out.println("......FIM......");
 
     }
 }
