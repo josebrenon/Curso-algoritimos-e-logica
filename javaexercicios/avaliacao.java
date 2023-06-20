@@ -15,14 +15,15 @@ class avaliacao
 {
     public static void main(String [] args)
     {
-        float prova1 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota da prova 1 que tem peso 2: "));
-        float prova2 = Float.parseFloat(JOptionPane.showInputDialog("\nDigite a nota da prova 2 que tem peso 3: "));
-        float prova3 = Float.parseFloat(JOptionPane.showInputDialog("\nDigite a nota da prova 3 que tem peso 5: "));
+        float prova1, prova2, prova3, media;
+         prova1 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota da prova 1 que tem peso 2: "));
+         prova2 = Float.parseFloat(JOptionPane.showInputDialog("\nDigite a nota da prova 2 que tem peso 3: "));
+         prova3 = Float.parseFloat(JOptionPane.showInputDialog("\nDigite a nota da prova 3 que tem peso 5: "));
 
         prova1 = prova1 * 2 / 10;
         prova2 = prova2 * 3 / 10;
         prova3 = prova3 * 5 / 10;
-        float media = prova1 + prova2 + prova3;
+         media = prova1 + prova2 + prova3;
 
         JOptionPane.showMessageDialog(null, "A nota da prova 1 que tem peso 2 = "+ prova1 +
                 "\nA nota da prova 2 que tem peso 3 = "+prova2 + "\nA nota da prova 3 que tem peso 5 = "+prova3 +

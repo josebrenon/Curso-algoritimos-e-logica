@@ -15,9 +15,10 @@ class saldo
 {
     public static void main(String [] args)
     {
-        float saldo_inicial = 500;
-        float cheque = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor do cheque que entrou: R$"));
-        float vfinal = saldo_inicial - cheque;
+        float saldo_inicial, cheque, vfinal;
+         saldo_inicial = 500;
+         cheque = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor do cheque que entrou: R$"));
+         vfinal = saldo_inicial - cheque;
         JOptionPane.showMessageDialog(null,"O saldo inicial era de R$"+saldo_inicial
         + "\nO valor do cheque que entrou = R$"+cheque + "\nO valor final = R$"+vfinal);
         System.out.println("......FIM......");
