@@ -9,7 +9,7 @@
      By: José Brenon - 20/06/2023
  */
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 class avaliacao
 {

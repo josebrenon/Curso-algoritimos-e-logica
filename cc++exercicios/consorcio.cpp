@@ -20,7 +20,7 @@ main()
     scanf("%f", &valor);
     printf("Digite a quantidade de prestacoes a pagar: ");
     scanf("%d", &n_prestacoes);
-    printf("Digite quantas prestacoes você pagou: ");
+    printf("Digite quantas prestacoes voce pagou: ");
     scanf("%d", &qnt_paga);
 
     total = valor * n_prestacoes;
@@ -28,7 +28,7 @@ main()
     falta = total - t_pago;
 
     printf("\nO valor total a se pagar = R$%f", total);
-    printf("\nSe voce ja pagou %d parcelas que da o total de R$%f", n_prestacoes, t_pago);
+    printf("\nSe voce ja pagou %d parcelas que da o total de R$%f", qnt_paga, t_pago);
     printf("\nAinda resta pagar R$%f", falta);
 
     printf("\n\n\n.........FIM........");

@@ -7,7 +7,7 @@
 
     By: José Brenon - 19/06/2022
  */
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 class tipo_dados
 {
