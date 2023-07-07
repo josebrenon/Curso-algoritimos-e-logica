@@ -1,7 +1,7 @@
 /*
     Problema: Analisando a formula" Prestação = valor + (valor * (taxa/100) * tempo)",
     crie um algoritmo para efetuar o cálculo do valor de uma prestação em atraso.
-    (Você deverá ler o VALOR da prestação, a TAXA de juros imposta pelo banco,
+    Você deverá ler o VALOR da prestação, a TAXA de juros imposta pelo banco,
     e o número de dias em ATRASO.
 
     Esse programa lê o valor da prestação, a taxa de juros imposta pelo banco,
