@@ -28,6 +28,6 @@ class prestacao
 
         JOptionPane.showMessageDialog(null, "O valor corrigido da prestação é de: "+v_prestacao);
 
-        System.out.printf("........FIM.......");
+        System.out.println("........FIM.......");
     }
 }
