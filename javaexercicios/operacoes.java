@@ -19,7 +19,8 @@ class operacoes
          subt = num1 - num2;
          mult = num1 * num2;
          divs = num1 / num2;
-        JOptionPane.showMessageDialog(null, "\nA soma = "+ soma+ "\nA subtracao = "+ subt+ "\nA multiplicacao = "+ mult+
+        JOptionPane.showMessageDialog(null, "\nA soma = "+ soma+ "\nA subtracao = "+ subt+
+                "\nA multiplicacao = "+ mult+
                 "\nA divisao = "+divs);
         System.out.println(".........FIM DO PROGRAMA.........");
     }
