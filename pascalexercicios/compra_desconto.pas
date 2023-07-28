@@ -30,7 +30,7 @@ begin
      else
          desconto := 20;
      valor_desconto := (valor_inicial * desconto) / 100;
-     total := valor_inicial - desconto;
+     total := valor_inicial - valor_desconto;
      writeln('Nome do cliente: ',nome);
      writeln('Valor da compra: ', valor_inicial:6:2);
      writeln('Percentual de desconto: ', desconto);
