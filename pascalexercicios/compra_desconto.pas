@@ -33,6 +33,7 @@ begin
      total := valor_inicial - desconto;
      writeln('Nome do cliente: ',nome);
      writeln('Valor da compra: ', valor_inicial:6:2);
+     writeln('Percentual de desconto: ', desconto);
      writeln('Valor do desconto: ',valor_desconto:6:2);
      writeln('Total: ', total:6:2);
 

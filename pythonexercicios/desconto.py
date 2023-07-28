@@ -27,8 +27,9 @@ valor_desconto = valor_inicial * desconto / 100
 total = valor_inicial - valor_desconto
 print('''Nome do cliente: {}
 Valor da compra: R${:.2f}
+Percentual de desconto: {}
 Valor do desconto R${:.2f}
-Total: R${:.2f}'''.format(nome, valor_inicial, valor_desconto, total))
+Total: R${:.2f}'''.format(nome, valor_inicial, desconto, valor_desconto, total))
 
 """if valor_inicial <= 200:
     desconto = valor_inicial * 10 / 100
