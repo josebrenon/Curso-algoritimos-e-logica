@@ -12,30 +12,31 @@ import javax.swing.*;
 public class menor_maior {
     public static void main(String[] args) {
         int n1, n2, n3;
-
+        String mensagem = "";
         n1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite o valor para n1"));
         n2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite o valor para n2"));
         n3 = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite o valor para n3"));
 
         if ((n1 >= n2) && (n1 >= n3)) {
-            JOptionPane.showMessageDialog(null, "O maior = " + n1);
+            mensagem = mensagem + "O maior = " + n1;
             if (n2 <= n3)
-                JOptionPane.showMessageDialog(null, "O menor = " + n2);
+                mensagem = mensagem + "\nO menor = " + n2;
             else
-                JOptionPane.showMessageDialog(null, "O menor = " + n3);
+                mensagem = mensagem + "\nO menor = " + n3;
         } else if ((n2 >= n1) && (n2 >= n3)) {
-            JOptionPane.showMessageDialog(null, "O maior = " + n2);
+            mensagem = mensagem + "\nO maior = " + n2;
             if (n1 <= n3)
-                JOptionPane.showMessageDialog(null, "O menor = " + n1);
+               mensagem = mensagem + "\nO menor = " + n1;
             else
-                JOptionPane.showMessageDialog(null, "O menor = " + n3);
+                mensagem = mensagem + "\nO menor = " + n3;
         } else {
-            JOptionPane.showMessageDialog(null, "O maior = " + n3);
+            mensagem = mensagem + "\nO maior = " + n3;
             if (n1 <= n2)
-                JOptionPane.showMessageDialog(null, "O menor = " + n1);
+                mensagem = mensagem + "\nO menor = " + n1;
             else
-                JOptionPane.showMessageDialog(null, "O menor = " + n2);
+                mensagem = mensagem + "\nO menor = " + n2;
         }
+        JOptionPane.showMessageDialog(null, mensagem);
         System.out.println(".........FIM.........");
     }
 }
