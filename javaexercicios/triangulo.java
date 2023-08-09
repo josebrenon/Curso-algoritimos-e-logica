@@ -36,7 +36,7 @@ public class triangulo {
 
         else
             JOptionPane.showMessageDialog(null, "Não pode formar um triângulo");
-        
+
         System.out.println("...........FIM........");
     }
 }
