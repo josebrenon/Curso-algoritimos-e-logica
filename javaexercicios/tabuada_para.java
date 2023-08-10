@@ -18,7 +18,7 @@ public class tabuada_para {
 
         for (i = 1; i <= 9; i++)
             mensagem = mensagem + "\n"+numero +" x "+ i+" = "+(numero * i);
-        
+
         JOptionPane.showMessageDialog(null, mensagem);
 
         System.out.println("......FIM.......");
