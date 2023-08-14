@@ -8,7 +8,6 @@
     Autor: José Brenon - 09/08/2023
 */
 import javax.swing.JOptionPane;
-import javax.swing.plaf.synth.SynthLookAndFeel;
 
 public class abc_crescente {
     public static void main(String[] args) {
