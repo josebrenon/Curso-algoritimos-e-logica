@@ -1,11 +1,11 @@
 {
-    Problema: Ler 3 valores INTEIROS para as variáveis A, B, C.
+    Problema: Ler 3 valores INTEIROS para as variï¿½veis A, B, C.
     Apresentar os valores dispostos em ordem crescente.
 
-    Esse programa lê três números inteiros, verifica qual deles é o maior, o do meio
+    Esse programa lï¿½ trï¿½s nï¿½meros inteiros, verifica qual deles ï¿½ o maior, o do meio
     e o menor e mostra os resultados.
 
-    Autor: José Brenon - 08/08/2023
+    Autor: Josï¿½ Brenon - 08/08/2023
 }
 program abc_crescente;
 var
