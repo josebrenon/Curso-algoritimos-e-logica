@@ -1,11 +1,11 @@
 {
-    Problema: Ler uma vari�vel de n�mero inteiro e mostrar sua tabuada.
-    Usando o la�o de repeti��o Para.
+    Problema: Ler uma variável de número inteiro e mostrar sua tabuada.
+    Usando o laço de repetição Enquanto.
 
-    Esse programa l� um n�mero inteiro e mostra a sua tabuada usando
+    Esse programa lê um número inteiro e mostra a sua tabuada usando
     o While.
 
-    Autor: Jos� Brenon - 09/08/2023
+    Autor: José Brenon - 09/08/2023
 }
 program tabuada_while;
 var numero, i: integer;
