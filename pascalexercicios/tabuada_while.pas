@@ -1,17 +1,17 @@
 {
-    Problema: Ler uma variável de número inteiro e mostrar sua tabuada.
-    Usando o laço de repetição Para.
+    Problema: Ler uma variï¿½vel de nï¿½mero inteiro e mostrar sua tabuada.
+    Usando o laï¿½o de repetiï¿½ï¿½o Para.
 
-    Esse programa lê um número inteiro e mostra a sua tabuada usando
+    Esse programa lï¿½ um nï¿½mero inteiro e mostra a sua tabuada usando
     o While.
 
-    Autor: José Brenon - 09/08/2023
+    Autor: Josï¿½ Brenon - 09/08/2023
 }
 program tabuada_while;
 var numero, i: integer;
 begin
 
-     write('Digite um numero para saber a sua tabuada: ');
+     write('Digite um numero inteiro para saber a sua tabuada: ');
      readln(numero);
      i := 1;
      while(i <= 9) do
