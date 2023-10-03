@@ -15,7 +15,7 @@ int main()
     printf("Digite um numero para saber a sua tabuada: ");
     scanf("%d", &n);
     i = 1;
-    while (i <= 10)
+    while (i <= 20)
     {
         printf("\n%d x %d = %d", n, i, (n * i));
         i++;
