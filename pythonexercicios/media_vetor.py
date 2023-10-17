@@ -1,6 +1,6 @@
 '''
     Problema: Ler a nota de 5 alunos, calcular a media e mostrar essa média.
-    E também quantos alunos ficaram com a nota igual ou maior que 6.
+    E também quantos alunos ficaram com a nota acima da média.
 
     Esse programa lê a média de 5 alunos calcula a média, verifica quantos alunos
     ficaram com a nota igual ou maior que 6 e mostra os resultados.
