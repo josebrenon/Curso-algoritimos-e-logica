@@ -13,7 +13,7 @@ public class tabuada_while {
         int n, i;
         String mensagem = "";
         n = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero para saber a sua tabuada: "));
-        i = 1;
+        i = 2;
         while (i <= 10) {
             mensagem = mensagem + "\n" +n +" x "+i +" = "+(n * i);
             i++;
